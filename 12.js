@@ -1,0 +1,24 @@
+/* 12) প্রতি দি ন ত োমার কাজ কি ?
+১) রাত ৮ টা বাজে মডি উল আনলক কর ো
+২) ফটাফট ভি ডি ও দে খে দে খে প্রাকটিস কর ো
+৩) ভি ডি ও দে খতে দে খতে ন োটস নাও
+৪) মডি উল শে ষ হলে পুরা মডি উল নি জে নি জে প্রাকটিস কর ো
+৫) ক োন কি ছু বুঝতে না পারলে (চি ন্তা করে দে খ ো এইখানে কি ন্তু একটা শর্ত আছে ), সাপ োর্ট সে শনে
+জয়ে ন কর ো
+এখন ত োমার কাজ হচ্ছে একটা for লুপ ১০ বার চালি য়ে উপরে র জি নি সগুলা আউটপুট হি সে বে
+দে খান ো। */
+let dailyWork = ['module unlock',
+    'video practise',
+    'take notes',
+    'self practise',
+    'bujechi',
+    'bujhonai? google koro',
+    'scroll group',
+    '#help post dao',
+    'ekhono bujhonai? chintar karon nei',
+    'join support session']
+for (i = 0; i < dailyWork.length; i++) {
+    let eachTask = dailyWork[i]
+
+    console.log(eachTask);
+}
